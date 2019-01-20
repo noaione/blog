@@ -1,37 +1,30 @@
 ---
 layout: page
 title: About me
-tags: [about]
+tags: [about, blog]
 date: 2016-03-21
 comments: false
 ---
     
-<center><a href="http://blog.n4o.xyz/blog"><b>Moon</b></a> is a minimal, one column jekyll theme.</center>
+<center><a href="http://blog.n4o.xyz/blog"><b>N4O Blog</b></a>Someone that wasting his time to do fansubbing</center>
 
-## Features
-* Minimal, you can focus on your content
-* Responsive
-* Disqus integration
-* Syntax highlighting
-* Optional post image
-* Social icons
-* Page for sharing projects
-* Optional background image
-* Simple navigation menu
-* MathJax support
+The only thing I do in my freetime are watching Anime or reading Manga
+Sometimes I do fansubbing sometimes coding something that probably useful to me
 
-## Preview
+Fansub that I join:
+- PAS
+- Lokalsubs (Inactive)
+- Solo the shit out of everything
 
-{% capture images %}
-    https://cloud.githubusercontent.com/assets/754514/14509720/61c61058-01d6-11e6-93ab-0918515ecd56.png
-    https://cloud.githubusercontent.com/assets/754514/14509716/61ac6c8e-01d6-11e6-879f-8308883de790.png
-{% endcapture %}
-{% include gallery images=images caption="Screenshots of Moon Theme" cols=2 %}
+You can find my release [here](https://blog.n4o.xyz/release)
+You can find what shows that I do [here](https://git.io/fpKjh)
 
-See a [live version of Moon](http://taylantatli.github.io/Moon) hosted on GitHub.
+Other links
+- [Nyaa.si](https://nyaa.si/user/NoAiOne)
+- [Anilist](https://anilist.co/user/NoAiOne)
+- [PerpusIndo](https://www.perpusindo.info/user/N4O)
+- [GitHub](https://github.com/noaione)
 
-## Getting Started
+My discord: N4O#8868
 
-To learn how to install and use this theme check out the [Setup Guide](http://taylantatli.me/Moon/moon-theme/) for more information.
-      
-[Install Moon](https://github.com/TaylanTatli/Moon){: .btn}
+***See ya!***
