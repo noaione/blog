@@ -6,13 +6,13 @@ date: 2016-03-21
 comments: false
 ---
     
-<center><a href="http://blog.n4o.xyz/blog"><b>N4O</b> - </a>Someone that wasting his time to do fansubbing</center>
+<center>Someone that wasting his time to do fansubbing</center>
 
 The only thing I do in my freetime are watching Anime or reading Manga
 
 Sometimes I do fansubbing sometimes coding something that probably useful to me
 
-Fansub that I join:
+Fansub that I join and active:
 - PAS
 - Lokalsubs (Inactive)
 - Solo the shit out of everything
