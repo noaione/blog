@@ -19,7 +19,7 @@ Yang dibutuhin:
 - Vapoursynth dan segalanyas
 - x264
 
-Silakan cek tutorial install ini: https://gist.github.com/noaione/6f8583c32a8f23e367688ebac0c9d0e0
+Silakan cek tutorial install ini: [https://gist.github.com/noaione/6f8583c32a8f23e367688ebac0c9d0e0](https://gist.github.com/noaione/6f8583c32a8f23e367688ebac0c9d0e0)
 
 Resizing Anime sama Descaling Anime menghasilkan hal yang berbeda, Descaling menggunakan algoritma lain agar
 Anime dapat dikembalikan ke resolusi asli (Native Resolution).
