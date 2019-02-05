@@ -152,7 +152,7 @@ v = core.std.MaskedMerge(v, resizer, mask)
 v.set_output()
 ```
 
-`v = core.std.MaskedMerge(v, nr, fullhdmask)` akan mengambil video yang di resize dan dibataskan ke bagian putih (mask) dan "menempelkannya" ke video yang di descale.
+`v = core.std.MaskedMerge(v, resizer, fullhdmask)` akan mengambil video yang di resize dan dibataskan ke bagian putih (mask) dan "menempelkannya" ke video yang di descale.
 
 {% capture images %}
 	https://blog.n4o.xyz/blog/assets/img/manaria01-810pfixed.png
