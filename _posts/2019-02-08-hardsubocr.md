@@ -8,6 +8,7 @@ tag:
 - blog
 - ripping
 comments: true
+feature: https://blog.n4o.xyz/blog/assets/img/ocrhard/thumb.jpg
 ---
 
 *lalalalalala*
@@ -83,7 +84,7 @@ Setelah itu, buka Cygwin dan ubah directory ke directory YoloCR. Cygwin mengguna
 
 Karena folder saya ada di `D:\VideoStuff\OCRTest\YoloCR` maka kita akan tulis `cd /cygdrive/d/VideoStuff/OCRTest/YoloCR`
 
-Jika file yang mau diubah berakhiran selain .mp4, ubah dengan ffmpeg: `ffmpeg -i input.ext -c copy output.mp4`
+Jika file yang mau diubah berakhiran selain .mp4, ubah dengan ffmpeg: `ffmpeg -i input.ext -c copy output.mp4`  
 
 Setelah itu ketik `for file in *.mp4; do filef="${file%.*}_filtered.mp4"; vspipe -y --arg FichierSource="$file" YoloCR.vpy - | ffmpeg -i - -c:v mpeg4 -qscale:v 3 -y "$filef"; ./YoloCR.sh "$filef" ind; done` dan tunggu sebentar
 
