@@ -18,7 +18,7 @@ Yang dibutuhin:
 - FFMpeg
 - YoloCR
 
-Silakan cek tutorial install vapoursynth di sini: [https://gist.github.com/noaione/6f8583c32a8f23e367688ebac0c9d0e0](https://gist.github.com/noaione/6f8583c32a8f23e367688ebac0c9d0e0)
+Silakan cek tutorial install vapoursynth di sini: [github](https://gist.github.com/noaione/6f8583c32a8f23e367688ebac0c9d0e0)
 
 ### Install YoloCR
 
@@ -73,37 +73,17 @@ Copy-Paste `FichierSource=r'Vidéo_Source.mkv'`, `DimensionCropBox=[1344,150]`, 
 
 Klik F5 lalu atur `SeuilI=230` dan `SeuilO=80` agar teks sub terlihat enak.
 
-Yang tak pake adalah `SeuilI=225` dan `SeuilO=70`, lalu save & exit.
+Yang tak pake adalah `SeuilI=225` dan `SeuilO=70`.
+
+Setelah itu kasih `#` di sebelum `FichierSource=r'Vidéo_Source.mkv` jadi kayak gini: `#FichierSource=r'Vidéo_Source.mkv`, save & exit `YoloCR.vpy`.
 
 ---
-
-Shift-Klik Kanan untuk memunculkan Pilihan `Open Powershell/Command Prompt window here`
-
-Buat file `encode.bat` lalu isi dengan ini
-
-```batch
-@echo off
-vspipe -y %1 - | ffmpeg -i - -c:v mpeg4 -qscale:v 3 -y OCRreadyoutput.mp4
-@pause
-```
-
-{% capture images %}
-	https://blog.n4o.xyz/blog/assets/img/ocrhard/03.png
-{% endcapture %}
-{% include gallery images=images caption="Yang harus diketik ke encode.bat" cols=1 %}
-
-Lalu, drag n' drop file `YoloCR.vpy` ke `encode.bat`, tunggu sesaat
-
-{% capture images %}
-	https://blog.n4o.xyz/blog/assets/img/ocrhard/04.png
-{% endcapture %}
-{% include gallery images=images caption="Proses buat video untuk di OCR" cols=1 %}
 
 Setelah itu, buka Cygwin dan ubah directory ke directory YoloCR. Cygwin menggunakan prefix `/cygdrive/` untuk harddisk kita, jika situ save di `C:` maka ketik `cd /cygdrive/c/` kalo `D:` ketik `cd /cygdrive/d/` dst.
 
 Karena folder saya ada di `D:\VideoStuff\OCRTest\YoloCR` maka kita akan tulis `cd /cygdrive/d/VideoStuff/OCRTest/YoloCR`
 
-Setelah itu tulis `./YoloCR.sh OCRreadyoutput.mp4 ind` dan tunggu sebentar
+Setelah itu ketik `for file in *.mp4; do filef="${file%.*}_filtered.mp4"; vspipe -y --arg FichierSource="$file" YoloCR.vpy - | ffmpeg -i - -c:v mpeg4 -qscale:v 3 -y "$filef"; ./YoloCR.sh "$filef" ind; done` dan tunggu sebentar
 
 {% capture images %}
 	https://blog.n4o.xyz/blog/assets/img/ocrhard/05.png
