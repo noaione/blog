@@ -113,7 +113,7 @@ Lalu ketik ini: `ffmpeg -i input.ts -map 0:0 -map 0:1 -c copy output-fix.ts`, `i
 
 ## Note:
 
-Silakan lapor masalah (menggunakan bahasa inggris) melalui: [GitHub Issue](https://github.com/noaione/yuu)
+Silakan lapor masalah (menggunakan bahasa inggris) melalui: [GitHub Issue](https://github.com/noaione/yuu/issues)
 
 Dan kalau bisa PR ya :))
 
