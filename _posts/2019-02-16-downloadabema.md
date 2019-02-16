@@ -8,19 +8,20 @@ tag:
 - blog
 - ripping
 comments: true
+feature: https://blog.n4o.xyz/blog/assets/img/abemadl/thumb.png
 ---
 
-*di sponsori oleh NoAiOne*
+*Disponsori oleh NoAiOne*
 
 Yang dibutuhin:
 - PC
 - Python 3+
-- FFMpeg
+- FFMpeg (Opsional)
 - VPN/Proxy Jepang
 
-Install Python3.6 terlebih dahulu: https://xo.tc/installing-python-36-on-windows.html
+**Install Python3.6 terlebih dahulu: [Tutorial](https://xo.tc/installing-python-36-on-windows.html)**
 
-Download FFMpeg Static dan taruh file `ffmpeg.exe` ke `C:\Windows`
+**Download FFMpeg Static dan taruh file `ffmpeg.exe` ke `C:\Windows`**
 
 ## Langkah-Langkah 
 
@@ -115,3 +116,7 @@ Lalu ketik ini: `ffmpeg -i input.ts -map 0:0 -map 0:1 -c copy output-fix.ts`, `i
 Silakan lapor masalah (menggunakan bahasa inggris) melalui: [GitHub Issue](https://github.com/noaione/yuu)
 
 Dan kalau bisa PR ya :))
+
+**Video yang jadi contoh di pos**: Yagate Kimi ni Naru Episode 01
+
+**Video yang jadi contoh di gambar**: 1-Page no Koi Trailer
