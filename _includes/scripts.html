@@ -5,6 +5,9 @@
     <script src="{{ site.url }}/assets/js/jquery.magnific-popup.min.js"></script>
     <script src="{{ site.url }}/assets/js/jquery.fitvid.min.js"></script>
     <script src="{{ site.url }}/assets/js/scripts.js"></script>
+    {% if page.enable_vidjs != false %}
+    <script src="https://vjs.zencdn.net/7.8.4/video.js"></script>
+    {% endif %}
     {% if site.google.analytics %}
     <!-- Asynchronous Google Analytics snippet -->
     <script>
