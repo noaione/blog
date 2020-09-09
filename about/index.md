@@ -6,16 +6,21 @@ date: 2016-03-21
 comments: false
 ---
     
-<center>Someone that wasting his time to do fansubbing</center>
+<center>Someone that wasting his time to <s>do fansubbing</s> watch VTubers.</center>
 
 The only thing I do in my freetime are watching Anime or reading Manga
 
-Sometimes I do fansubbing sometimes coding something that probably useful to me
+BUT now, I'm stuck in something called VTubers hell.<br>
+Please watch [Towa](https://www.youtube.com/channel/UC1uv2Oq6kNxgATlCiez59hw) thanks.
+
+~~Sometimes I do fansubbing sometimes coding something that probably useful to me~~
+
+I'm very inactive nowadays with how busy I am.
 
 Fansub that I join and active:
-- PAS
+- PAS (Inactive)
 - Lokalsubs (Inactive)
-- Solo the shit out of everything
+- Solo the shit out of everything (Also Inactive)
 
 You can find my release [here](https://blog.n4o.xyz/release)
 

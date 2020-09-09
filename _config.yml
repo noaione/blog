@@ -1,6 +1,6 @@
 # Site
 title:              N4O Blog
-bio:                'Simple guy doing fansubbing works'
+bio:                'Simple guy <s>doing fansubbing works</s> stuck in VTubers hell.'
 description:        "Simple guy doing fansubbing works"
 reading_time:       true
 words_per_minute:   200
@@ -38,8 +38,8 @@ disqus_shortname:   n4oblog
   #ad-slot:
 #bing-verify:
 email:              noaione0809@gmail.com
-#twitter:            username
-facebook:           noaione
+twitter:            nao0809_
+#facebook:           noaione
 github-url:         noaione
 #stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
 #linkedin:          username
@@ -51,6 +51,7 @@ github-url:         noaione
 #pinterest:         username
 #foursquare:        username
 steam:              n4o
+trakteer:           noaione
 #dribbble:          username
 #youtube:           username
 #youtube-channel:   channel
