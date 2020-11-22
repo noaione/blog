@@ -139,8 +139,8 @@ table {
     padding: .5em 1em;
     text-indent: 0;
     @include font-rem(14);
-    background-color: $color_gray;
-    border: 1px solid $color_pink_swan;
+    background-color: #feffaa;
+    border: 1px solid #b3b53c;
     @include rounded(3px);
 }
 
